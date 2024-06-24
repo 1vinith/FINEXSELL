@@ -1,0 +1,51 @@
+.sidebar {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.--sidebar-profile img {
+  width: 5rem;
+  height: 4.8rem;
+  border-radius: 50px;
+}
+
+.--sidebar-profile-details {
+}
+
+.--sidebar-dashboard {
+  margin-top: 4rem;
+}
+
+.--sidebar-dashboard button,
+.--sidebar-sell button,
+.--sidebar-products button,
+.--sidebar-wallet button,
+.--sidebar-switch button,
+.--sidebar-settings button,
+.--sidebar-logout button {
+  font-size: 1.2rem;
+  padding: 10px;
+  width: 12rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  margin-top: 2rem;
+}
+
+.--sidebar-dashboard button:hover,
+.--sidebar-sell button:hover,
+.--sidebar-products button:hover,
+.--sidebar-wallet button:hover,
+.--sidebar-switch button:hover,
+.--sidebar-settings button:hover,
+.--sidebar-logout button:hover {
+  background-color: indigo;
+  transition: 0.1s ease-in-out;
+}
+
+.active {
+  background-color: red !important;
+  color: white;
+}

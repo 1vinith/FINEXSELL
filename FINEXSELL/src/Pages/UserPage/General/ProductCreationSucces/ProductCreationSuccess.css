@@ -1,0 +1,41 @@
+.ProductCreationSuccess {
+    margin-top: 9rem;
+  }
+  
+  .--ProductCreationSuccess-header {
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    width: 50rem;
+    height: 27rem;
+    margin-left: 20rem;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .--ProductCreationSuccess-check {
+    margin-top: 7rem;
+    /* font-size: 4rem; */
+  }
+
+  .--ProductCreationSuccess-check h1 {
+    margin-top: 7rem;
+    font-size: 4rem;
+    margin-top: -2rem;
+  }
+
+  .--ProductCreationSuccess-check h2 {
+    
+    margin-top: -2rem;
+  }
+
+  .--ProductCreationSuccess-button {
+    padding: 10px;
+    width: 18rem;
+    border-radius: 20px;
+    border: none;
+    background: #4E13C2;
+    margin-top: 2rem;
+  }

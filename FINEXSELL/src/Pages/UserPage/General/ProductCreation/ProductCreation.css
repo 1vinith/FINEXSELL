@@ -1,0 +1,109 @@
+.productCreation {
+  margin-top: 7rem;
+}
+
+.--productCreation-hearder {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  width: 60rem;
+  height: 39rem;
+  margin-left: 15rem;
+  padding: 10px;
+}
+
+.--productCreation-add {
+  background-color: rgba(76, 0, 130, 0.117);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  width: 55rem;
+  margin-top: 1rem;
+  height: 17rem;
+  margin-left: 2rem;
+  padding: 10px;
+  
+}
+
+.--productCreation-addFile input[type="file"] {
+  display: none;
+}
+
+.--productCreation-addFile label.plus {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 6rem;
+}
+
+.group {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+
+label.plus:hover {
+  color: #555;
+}
+
+.--productCreation-product-details {
+    margin-top: 5rem;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+.--form-group-flex {
+    display: flex;
+    padding: 10px;
+}
+
+.form-group input{
+    width: 51rem;
+    background: indigo;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 17px;
+}
+
+.--form-group input{
+    width: 23.8rem;
+    background: indigo;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 17px;
+}
+
+.--form-buttons-first {
+    padding: 10px;
+    width: 26rem;
+    background-color: #4E13C2;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.--form-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 53.2rem;
+    padding: 10px;
+}
+
+.--form-buttons-second {
+    padding: 10px;
+    width: 26rem;
+    background: none;
+    border: 2px solid #4E13C2;
+    border-radius: 10px;
+    color: white;
+}
