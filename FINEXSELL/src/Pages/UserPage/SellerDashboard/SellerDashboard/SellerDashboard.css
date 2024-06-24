@@ -1,0 +1,20 @@
+.sellerDashboard {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    height: 100%;
+    overflow: hidden;
+}
+
+#sectionOne {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow: scroll;
+    box-sizing: content-box;
+}
+
+#sectionTwo {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow: scroll;
+    box-sizing: content-box;
+}
